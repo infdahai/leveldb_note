@@ -34,6 +34,11 @@ class LEVELDB_EXPORT FilterPolicy {
   // passed to methods of this type.
   virtual const char* Name() const = 0;
 
+  /*
+   * 创建了 n个key吗
+   * 这里存疑
+   * 到布隆过滤器里解释
+   */
   // keys[0,n-1] contains a list of keys (potentially with duplicates)
   // that are ordered according to the user supplied comparator.
   // Append a filter that summarizes keys[0,n-1] to *dst.

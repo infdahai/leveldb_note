@@ -19,6 +19,9 @@
 #include "leveldb/slice.h"
 #include "leveldb/status.h"
 
+/*
+ * 用法:类似于 for(it=newIter();it.Valid();it.next()){}
+ */
 namespace leveldb {
 
 class LEVELDB_EXPORT Iterator {

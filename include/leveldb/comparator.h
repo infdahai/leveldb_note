@@ -9,6 +9,9 @@
 
 #include "leveldb/export.h"
 
+/*
+ * 只提供 字符串比较器。Slice 作为 key的类型，字符串比较器用于 key的全序排列。
+ */
 namespace leveldb {
 
 class Slice;
@@ -47,11 +50,17 @@ class LEVELDB_EXPORT Comparator {
   // i.e., an implementation of this method that does nothing is correct.
   virtual void FindShortestSeparator(std::string* start,
                                      const Slice& limit) const = 0;
+  /*
+   *  对于iter 搜索，常有[0..limit]需求，这里类似。
+   */
 
   // Changes *key to a short string >= *key.
   // Simple comparator implementations may return with *key unchanged,
   // i.e., an implementation of this method that does nothing is correct.
   virtual void FindShortSuccessor(std::string* key) const = 0;
+  /*
+   * 后续对于iterator， 找到后继。 for(it = newiter();it.valid();it.next()){}
+   */
 };
 
 // Return a builtin comparator that uses lexicographic byte-wise

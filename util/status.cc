@@ -18,6 +18,9 @@ const char* Status::CopyState(const char* state) {
   return result;
 }
 
+/*
+ * 按位置编排 [0..3] [4] [5...]=>msg1 [7+len1...]=>msg2
+ */
 Status::Status(Code code, const Slice& msg, const Slice& msg2) {
   assert(code != kOk);
   const uint32_t len1 = static_cast<uint32_t>(msg.size());

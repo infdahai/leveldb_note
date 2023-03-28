@@ -37,6 +37,9 @@ class NoDestructor {
   }
 
  private:
+  /*
+   * 用于类型地址对齐。
+   */
   typename std::aligned_storage<sizeof(InstanceType),
                                 alignof(InstanceType)>::type instance_storage_;
 };

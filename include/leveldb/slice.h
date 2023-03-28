@@ -22,6 +22,11 @@
 
 #include "leveldb/export.h"
 
+/*
+ * 字符串切片
+ * 使用 size 和 data(const char*) 构造字符串切片
+ */
+
 namespace leveldb {
 
 class LEVELDB_EXPORT Slice {
@@ -86,7 +91,7 @@ class LEVELDB_EXPORT Slice {
   }
 
  private:
-  const char* data_;
+  const char* data_;  // static string in static area.
   size_t size_;
 };
 

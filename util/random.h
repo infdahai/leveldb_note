@@ -12,6 +12,9 @@ namespace leveldb {
 // A very simple random number generator.  Not especially good at
 // generating truly random bits, but good enough for our needs in this
 // package.
+/*
+ * 这里A 是对应位为1的数字
+ */
 class Random {
  private:
   uint32_t seed_;
@@ -34,6 +37,7 @@ class Random {
     // up cycling through every number in [1,M-1]
     uint64_t product = seed_ * A;
 
+    // 这里其实就是把高32位的除以M的余数挪下来，与低32位的相加。实际上就是计算上面哪个值
     // Compute (product % M) using the fact that ((x << 31) % M) == x.
     seed_ = static_cast<uint32_t>((product >> 31) + (product & M));
     // The first reduction may overflow by 1 bit, so we may need to
@@ -42,6 +46,7 @@ class Random {
     if (seed_ > M) {
       seed_ -= M;
     }
+    // 这里我不是很理解，leveldb说是大于能进行快速符号位检测。但seed_一定小于M吧。
     return seed_;
   }
   // Returns a uniformly distributed value in the range [0..n-1]
@@ -56,6 +61,7 @@ class Random {
   // return "base" random bits.  The effect is to pick a number in the
   // range [0,2^max_log-1] with exponential bias towards smaller numbers.
   uint32_t Skewed(int max_log) { return Uniform(1 << Uniform(max_log + 1)); }
+  // 两次 分布
 };
 
 }  // namespace leveldb

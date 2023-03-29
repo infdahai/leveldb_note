@@ -6,8 +6,9 @@
 
 #include <vector>
 
-#include "gtest/gtest.h"
 #include "util/coding.h"
+
+#include "gtest/gtest.h"
 
 namespace leveldb {
 
@@ -17,6 +18,7 @@ static std::string EncodeKey(int k) {
   PutFixed32(&result, k);
   return result;
 }
+// 4个字节的char数组转换成uint32_t
 static int DecodeKey(const Slice& k) {
   assert(k.size() == 4);
   return DecodeFixed32(k.data());

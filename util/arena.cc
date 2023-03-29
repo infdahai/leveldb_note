@@ -23,6 +23,7 @@ char* Arena::AllocateFallback(size_t bytes) {
     // to avoid wasting too much space in leftover bytes.
     char* result = AllocateNewBlock(bytes);
     return result;
+    // 这里一旦大于1/4，那么分配给定字节的空间。
   }
 
   // We waste the remaining space in the current block.
@@ -60,6 +61,7 @@ char* Arena::AllocateNewBlock(size_t block_bytes) {
   blocks_.push_back(result);
   memory_usage_.fetch_add(block_bytes + sizeof(char*),
                           std::memory_order_relaxed);
+  // 一个指针长度外加一个数组长度。
   return result;
 }
 

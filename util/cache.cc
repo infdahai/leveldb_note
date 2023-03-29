@@ -42,8 +42,8 @@ namespace {
 // are kept in a circular doubly linked list ordered by access time.
 struct LRUHandle {
   void* value;
-  void (*deleter)(const Slice&, void* value);
-  LRUHandle* next_hash;
+  void (*deleter)(const Slice&, void* value);  // 析构函数对象
+  LRUHandle* next_hash;  // next_hash 用来表示下一个节点
   LRUHandle* next;
   LRUHandle* prev;
   size_t charge;  // TODO(opt): Only allow uint32_t?
@@ -52,7 +52,9 @@ struct LRUHandle {
   uint32_t refs;     // References, including cache reference, if present.
   uint32_t hash;     // Hash of key(); used for fast sharding and comparisons
   char key_data[1];  // Beginning of key
-
+                     /*
+                      *
+                      */
   Slice key() const {
     // next is only equal to this if the LRU handle is the list head of an
     // empty list. List heads never have meaningful keys.
@@ -77,11 +79,13 @@ class HandleTable {
   }
 
   LRUHandle* Insert(LRUHandle* h) {
+    // 初始化时hash表为空，主要还是看LRUHandle如何生成的hash
     LRUHandle** ptr = FindPointer(h->key(), h->hash);
     LRUHandle* old = *ptr;
     h->next_hash = (old == nullptr ? nullptr : old->next_hash);
     *ptr = h;
     if (old == nullptr) {
+      // 已经到尾部指向空指针的地方了，就要扩容 了
       ++elems_;
       if (elems_ > length_) {
         // Since each cache entry is fairly large, we aim for a small
@@ -92,6 +96,7 @@ class HandleTable {
     return old;
   }
 
+  // 在resize通过nexthash已经构成链表了，因而直接删除就好。
   LRUHandle* Remove(const Slice& key, uint32_t hash) {
     LRUHandle** ptr = FindPointer(key, hash);
     LRUHandle* result = *ptr;
@@ -116,7 +121,10 @@ class HandleTable {
     LRUHandle** ptr = &list_[hash & (length_ - 1)];
     while (*ptr != nullptr && ((*ptr)->hash != hash || key != (*ptr)->key())) {
       ptr = &(*ptr)->next_hash;
+      // 表示下一个hash对应的 节点
+      // next_hash 就是下一个指向的指针(在resize里做的处理)
     }
+    // 最终会返回一个尾部指向空指针的handle.
     return ptr;
   }
 
@@ -125,17 +133,23 @@ class HandleTable {
     while (new_length < elems_) {
       new_length *= 2;
     }
+    // 最低长度为4
+
     LRUHandle** new_list = new LRUHandle*[new_length];
+    // new_list指向一串 连续的指针数组。
     memset(new_list, 0, sizeof(new_list[0]) * new_length);
     uint32_t count = 0;
     for (uint32_t i = 0; i < length_; i++) {
       LRUHandle* h = list_[i];
+      // h指向list_[i]实际对应的那个lruhandle
       while (h != nullptr) {
         LRUHandle* next = h->next_hash;
         uint32_t hash = h->hash;
         LRUHandle** ptr = &new_list[hash & (new_length - 1)];
+        // 实际上将 hash重mod一个运算
         h->next_hash = *ptr;
         *ptr = h;
+        // ptr指向的指针存储的是 h 这个指向list_[i]的指针。
         h = next;
         count++;
       }
@@ -215,25 +229,31 @@ LRUCache::~LRUCache() {
   }
 }
 
+// 类似 pin
 void LRUCache::Ref(LRUHandle* e) {
   if (e->refs == 1 && e->in_cache) {  // If on lru_ list, move to in_use_ list.
     LRU_Remove(e);
     LRU_Append(&in_use_, e);
+    // 从LRU移除，加入 in_use链表
   }
   e->refs++;
 }
 
+// unpin
 void LRUCache::Unref(LRUHandle* e) {
   assert(e->refs > 0);
   e->refs--;
   if (e->refs == 0) {  // Deallocate.
     assert(!e->in_cache);
     (*e->deleter)(e->key(), e->value);
+    // 调用自定义析构函数
     free(e);
   } else if (e->in_cache && e->refs == 1) {
     // No longer in use; move to lru_ list.
+    // lru-1链表
     LRU_Remove(e);
     LRU_Append(&lru_, e);
+    //插入 lru链表
   }
 }
 
@@ -246,6 +266,7 @@ void LRUCache::LRU_Append(LRUHandle* list, LRUHandle* e) {
   // Make "e" newest entry by inserting just before *list
   e->next = list;
   e->prev = list->prev;
+  // 头插法，循环列表，插入位置其实也是尾端
   e->prev->next = e;
   e->next->prev = e;
 }
@@ -280,6 +301,7 @@ Cache::Handle* LRUCache::Insert(const Slice& key, uint32_t hash, void* value,
   e->in_cache = false;
   e->refs = 1;  // for the returned handle.
   std::memcpy(e->key_data, key.data(), key.size());
+  // 复制均用memcpy等语句
 
   if (capacity_ > 0) {
     e->refs++;  // for the cache's reference.
@@ -287,14 +309,19 @@ Cache::Handle* LRUCache::Insert(const Slice& key, uint32_t hash, void* value,
     LRU_Append(&in_use_, e);
     usage_ += charge;
     FinishErase(table_.Insert(e));
+    // 这里finisherase的操作是因为，
+    // 如果返回非空old，表明存在重复，直接删除过去的节点。
+    // 如果为空，则说明原来不存在，因此也不会删除
   } else {  // don't cache. (capacity_==0 is supported and turns off caching.)
     // next is read by key() in an assert, so it must be initialized
     e->next = nullptr;
   }
+  // 这句判断 lru 链表非空
   while (usage_ > capacity_ && lru_.next != &lru_) {
     LRUHandle* old = lru_.next;
     assert(old->refs == 1);
     bool erased = FinishErase(table_.Remove(old->key(), old->hash));
+    // 每次插入就会检查 usage> cap_
     if (!erased) {  // to avoid unused variable when compiled NDEBUG
       assert(erased);
     }
@@ -325,6 +352,7 @@ void LRUCache::Prune() {
   MutexLock l(&mutex_);
   while (lru_.next != &lru_) {
     LRUHandle* e = lru_.next;
+    // 清除尾端
     assert(e->refs == 1);
     bool erased = FinishErase(table_.Remove(e->key(), e->hash));
     if (!erased) {  // to avoid unused variable when compiled NDEBUG
@@ -348,6 +376,11 @@ class ShardedLRUCache : public Cache {
 
   static uint32_t Shard(uint32_t hash) { return hash >> (32 - kNumShardBits); }
 
+  /*
+   * 最后,leveldb会提供一个ShardedLRUCache . 会分成16个切片。
+   * 高4位作为选择shard的位置，其他就是shard_[Shard(hash)]的访问了。
+   * 这里和cmu15445的数据库中多个bpm并发实例一样，取一个全局锁来分配last_id_;
+   */
  public:
   explicit ShardedLRUCache(size_t capacity) : last_id_(0) {
     const size_t per_shard = (capacity + (kNumShards - 1)) / kNumShards;

@@ -259,6 +259,7 @@ constexpr inline const uint8_t* RoundUp(const uint8_t* pointer) {
       (reinterpret_cast<uintptr_t>(pointer) + (N - 1)) &
       ~static_cast<uintptr_t>(N - 1));
 }
+// 这里仔细思考下，得到的恰好是2^N这个数。
 
 }  // namespace
 

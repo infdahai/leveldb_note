@@ -20,6 +20,9 @@ namespace leveldb {
 //     ... some complex code, possibly with multiple return paths ...
 //   }
 
+/*
+ *  用法简单，主要是借助 clang提供的thread annotations 提供编译检查
+ */
 class SCOPED_LOCKABLE MutexLock {
  public:
   explicit MutexLock(port::Mutex* mu) EXCLUSIVE_LOCK_FUNCTION(mu) : mu_(mu) {

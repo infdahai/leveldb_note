@@ -1,0 +1,472 @@
+[
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/db_bench.dir/util/histogram.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/histogram.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/histogram.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/db_bench.dir/util/testutil.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/testutil.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/testutil.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/db_bench.dir/benchmarks/db_bench.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/benchmarks/db_bench.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/benchmarks/db_bench.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/env_posix_test.dir/util/testutil.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/testutil.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/testutil.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/env_posix_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/env_posix_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/status_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/status_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/status_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/no_destructor_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/no_destructor_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/testutil.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/testutil.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/testutil.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/autocompact_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/autocompact_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/corruption_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/corruption_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/db_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/db_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/db_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/dbformat_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/dbformat_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/filename_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/filename_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/log_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/log_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/log_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/recovery_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/recovery_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/skiplist_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/skiplist_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/version_edit_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/version_edit_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/version_set_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/version_set_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/write_batch_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/write_batch_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/helpers/memenv/memenv_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/helpers/memenv/memenv_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/filter_block_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/filter_block_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/table/table_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/table_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/table_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/arena_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/arena_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/bloom_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/bloom_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/cache_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/cache_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/coding_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/coding_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/crc32c_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/crc32c_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/hash_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/hash_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/logging_test.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/logging_test.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++   -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/leveldbutil.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/leveldbutil.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/c_test.dir/util/testutil.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/testutil.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/testutil.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/cc -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -Wstrict-prototypes -O3 -DNDEBUG   -pthread -std=c11 -o CMakeFiles/c_test.dir/db/c_test.c.o   -c /root/Workspace/proj/finish_proj/leveldb-note/db/c_test.c",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/c_test.c"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/builder.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/builder.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/builder.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/c.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/c.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/c.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/db_impl.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/db_impl.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/db_impl.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/db_iter.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/db_iter.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/db_iter.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/dbformat.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/dbformat.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/dbformat.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/dumpfile.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/dumpfile.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/dumpfile.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/filename.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/filename.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/filename.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/log_reader.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/log_reader.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/log_reader.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/log_writer.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/log_writer.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/log_writer.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/memtable.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/memtable.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/memtable.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/repair.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/repair.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/repair.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/table_cache.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/table_cache.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/table_cache.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/version_edit.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/version_edit.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/version_edit.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/version_set.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/version_set.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/version_set.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/db/write_batch.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/db/write_batch.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/db/write_batch.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/block_builder.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/block_builder.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/block_builder.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/block.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/block.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/block.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/filter_block.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/filter_block.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/filter_block.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/format.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/format.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/format.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/iterator.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/iterator.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/iterator.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/merger.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/merger.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/merger.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/table_builder.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/table_builder.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/table_builder.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/table.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/table.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/table.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/table/two_level_iterator.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/table/two_level_iterator.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/arena.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/arena.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/arena.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/bloom.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/bloom.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/bloom.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/cache.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/cache.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/cache.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/coding.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/coding.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/coding.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/comparator.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/comparator.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/comparator.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/crc32c.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/crc32c.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/crc32c.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/env.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/env.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/env.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/filter_policy.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/filter_policy.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/filter_policy.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/hash.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/hash.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/hash.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/logging.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/logging.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/logging.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/options.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/options.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/options.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/status.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/status.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/status.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/util/env_posix.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/util/env_posix.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/util/env_posix.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build",
+  "command": "/usr/local/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/include   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11 -o CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/helpers/memenv/memenv.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/helpers/memenv/memenv.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/googletest/googlemock",
+  "command": "/usr/local/bin/c++   -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/src/gmock_main.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/googletest/googlemock",
+  "command": "/usr/local/bin/c++   -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-missing-field-initializers -pthread -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/src/gmock-all.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/googletest/googletest",
+  "command": "/usr/local/bin/c++   -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -isystem /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/src/gtest_main.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/googletest/googletest",
+  "command": "/usr/local/bin/c++   -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest   -fno-exceptions -fno-rtti -O3 -DNDEBUG   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-missing-field-initializers -pthread -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/src/gtest-all.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark_main.dir/benchmark_main.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_main.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_main.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/benchmark.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_api_internal.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_api_internal.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/benchmark_name.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_name.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_name.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_register.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_register.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/benchmark_runner.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_runner.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/benchmark_runner.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/colorprint.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/colorprint.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/colorprint.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/commandlineflags.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/commandlineflags.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/complexity.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/complexity.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/complexity.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/console_reporter.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/console_reporter.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/console_reporter.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/counter.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/counter.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/counter.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/csv_reporter.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/csv_reporter.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/json_reporter.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/json_reporter.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/json_reporter.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/perf_counters.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/perf_counters.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/perf_counters.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/reporter.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/reporter.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/reporter.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/sleep.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/sleep.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/sleep.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/statistics.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/statistics.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/statistics.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/string_util.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/string_util.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/string_util.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/sysinfo.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/sysinfo.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/sysinfo.cc"
+},
+{
+  "directory": "/root/Workspace/proj/finish_proj/leveldb-note/build/third_party/benchmark/src",
+  "command": "/usr/local/bin/c++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I/root/Workspace/proj/finish_proj/leveldb-note/build/include -I/root/Workspace/proj/finish_proj/leveldb-note/. -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/include -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src -I/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/../include   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated   -std=c++11 -o CMakeFiles/benchmark.dir/timers.cc.o -c /root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/timers.cc",
+  "file": "/root/Workspace/proj/finish_proj/leveldb-note/third_party/benchmark/src/timers.cc"
+}
+]

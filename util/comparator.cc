@@ -10,6 +10,7 @@
 #include <type_traits>
 
 #include "leveldb/slice.h"
+
 #include "util/logging.h"
 #include "util/no_destructor.h"
 
@@ -50,7 +51,8 @@ class BytewiseComparatorImpl : public Comparator {
       }
     }
   }
-
+  //实际上这两个就是用resize来确保字节序。
+  // 但这代码写的十分精炼了
   void FindShortSuccessor(std::string* key) const override {
     // Find first character that can be incremented
     size_t n = key->size();

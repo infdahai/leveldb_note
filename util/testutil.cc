@@ -17,6 +17,7 @@ Slice RandomString(Random* rnd, int len, std::string* dst) {
     (*dst)[i] = static_cast<char>(' ' + rnd->Uniform(95));  // ' ' .. '~'
   }
   return Slice(*dst);
+  // 用slice指向数据
 }
 
 std::string RandomKey(Random* rnd, int len) {
@@ -29,6 +30,7 @@ std::string RandomKey(Random* rnd, int len) {
     result += kTestChars[rnd->Uniform(sizeof(kTestChars))];
   }
   return result;
+  // 在给定字符串里随机
 }
 
 Slice CompressibleString(Random* rnd, double compressed_fraction, size_t len,

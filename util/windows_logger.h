@@ -36,6 +36,7 @@ class WindowsLogger final : public Logger {
     constexpr const int kMaxThreadIdSize = 32;
     std::ostringstream thread_stream;
     thread_stream << std::this_thread::get_id();
+    // 重载返回get_id中的id对象，类型为typedef unsigned long int pthread_t;
     std::string thread_id = thread_stream.str();
     if (thread_id.size() > kMaxThreadIdSize) {
       thread_id.resize(kMaxThreadIdSize);
@@ -107,7 +108,7 @@ class WindowsLogger final : public Logger {
       assert(buffer_offset <= buffer_size);
       std::fwrite(buffer, 1, buffer_offset, fp_);
       std::fflush(fp_);
-
+      // 写的很优雅，很简练。
       if (iteration != 0) {
         delete[] buffer;
       }

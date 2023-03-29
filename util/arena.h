@@ -40,6 +40,7 @@ class Arena {
 
   // Allocation state
   char* alloc_ptr_;
+  // 指向当前分配的地方
   size_t alloc_bytes_remaining_;
 
   // Array of new[] allocated memory blocks

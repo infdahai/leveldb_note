@@ -6,14 +6,17 @@
 #define STORAGE_LEVELDB_DB_SNAPSHOT_H_
 
 #include "db/dbformat.h"
+
 #include "leveldb/db.h"
 
 namespace leveldb {
 
 class SnapshotList;
 
+// 镜像文件 在DB中使用双链表。
 // Snapshots are kept in a doubly-linked list in the DB.
 // Each SnapshotImpl corresponds to a particular sequence number.
+// 镜像有特定的序列号。
 class SnapshotImpl : public Snapshot {
  public:
   SnapshotImpl(SequenceNumber sequence_number)
@@ -52,6 +55,7 @@ class SnapshotList {
     assert(!empty());
     return head_.prev_;
   }
+  // 使用dummy head.head不放数据
 
   // Creates a SnapshotImpl and appends it to the end of the list.
   SnapshotImpl* New(SequenceNumber sequence_number) {
@@ -68,6 +72,7 @@ class SnapshotList {
     snapshot->next_->prev_ = snapshot;
     return snapshot;
   }
+  // 搞了个链表，每次插入更新下信息。
 
   // Removes a SnapshotImpl from this list.
   //
